@@ -5,6 +5,9 @@
 	<link rel="icon" href="CL.png">
 	<a href="projects.html" class="nav-home">‹‹&nbsp; Projects</a>
 	<style>
+	html { 
+	    background: #f1f1f9;
+    }
 	body {
 		line-height:35px;
 		padding-top: 5%;
@@ -15,19 +18,19 @@
 		margin-left: 27%;
 		margin-right: 27%;
 		font-family: verdana;
-		color: #212121;
+		color: #383839;
 	}
 	p {
 		margin-left: 27%;
 		margin-right: 27%;
 		font-family: verdana;
-		color: #484848;
+		color: #383839;
 	}
 	.right {
   		text-align: middle;
 	}
 	a:link, a:visited, a:hover {
-		color: #484848;
+		color: #383839;
 		text-decoration: none;
 	}
 	a:hover {
@@ -41,7 +44,7 @@
 	</style>
 </head>
 <body>
-	<h1>Sandler Neuroscience Center Latent Space Visualizer</h1>
+	<h1><center>Sandler Neuroscience Center Latent Space Visualizer</center></h1>
 	<p>In addition to writing bash script to reorganize their patient database, I wrote a python script for Seeley Neuroimaging Lab that allows for the 2-dimensional visualization of a machine learning autoencoder's latent space. I created the script to be easily modifiable for any variety of scatterplots and brain scans.</p> 
 	<p>The created html script allows the user to view different scatterplots that plot a machine learning latent space. As you hover over each point on the scatterplot, the point turns red and an MRI scan of the brain appears, and the age of the patient in question is displayed. When you click on the point, it opens a separate page containing data about the patient in question (I couldn't include images of these pages as it violates patient privacy).</p> 
 	<p>Meant more for function than aesthetics, the visualization tool can display any variety of scatterplots and adjust the images accordingly. Screenshots of the finished products are included below, demonstrated on a small subset of the data.</p>
